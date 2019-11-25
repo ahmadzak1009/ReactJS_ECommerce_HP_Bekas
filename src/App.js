@@ -1,14 +1,21 @@
 import React from "react";
 import "./App.css";
-import Products from "./component/products/Products";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Index from "./component/Index";
 import Navbar from "./component/layout/Navbar";
+import ProductDetail from "./component/products/ProductDetail";
+import MyCart from "./component/cart/MyCart";
 
 function App() {
   return (
-    <React.Fragment>
+    <Router>
       <Navbar />
-      <Products />
-    </React.Fragment>
+      <Switch>
+        <Route path={"/"} exact component={Index} />
+        <Route path={"/details/:id"} component={ProductDetail} />
+        <Route path={"/my-cart"} component={MyCart} />
+      </Switch>
+    </Router>
   );
 }
 

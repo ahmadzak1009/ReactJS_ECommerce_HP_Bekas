@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
-.my-cart {
-  background: red;
+.show-when-hover {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: 1s;
+}
+
+.show-when-hover button {
+  transform: translateY(90px);
+  outline: none;
+}
+
+.show-when-hover:hover {
+  background: rgba(0, 0, 0, 0.3);
 }

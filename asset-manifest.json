@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ReactJS_ECommerce_HP_Bekas/static/css/main.9c5a1d25.chunk.css",
+    "main.js": "/ReactJS_ECommerce_HP_Bekas/static/js/main.d2509b55.chunk.js",
+    "main.js.map": "/ReactJS_ECommerce_HP_Bekas/static/js/main.d2509b55.chunk.js.map",
+    "runtime-main.js": "/ReactJS_ECommerce_HP_Bekas/static/js/runtime-main.c91b7291.js",
+    "runtime-main.js.map": "/ReactJS_ECommerce_HP_Bekas/static/js/runtime-main.c91b7291.js.map",
+    "static/js/2.96627088.chunk.js": "/ReactJS_ECommerce_HP_Bekas/static/js/2.96627088.chunk.js",
+    "static/js/2.96627088.chunk.js.map": "/ReactJS_ECommerce_HP_Bekas/static/js/2.96627088.chunk.js.map",
+    "index.html": "/ReactJS_ECommerce_HP_Bekas/index.html",
+    "precache-manifest.bebfa0fcd6f1fa2e6dd237525f8ace83.js": "/ReactJS_ECommerce_HP_Bekas/precache-manifest.bebfa0fcd6f1fa2e6dd237525f8ace83.js",
+    "service-worker.js": "/ReactJS_ECommerce_HP_Bekas/service-worker.js",
+    "static/css/main.9c5a1d25.chunk.css.map": "/ReactJS_ECommerce_HP_Bekas/static/css/main.9c5a1d25.chunk.css.map",
+    "static/media/logo.svg": "/ReactJS_ECommerce_HP_Bekas/static/media/logo.9f7e506d.svg",
+    "static/media/product-1.png": "/ReactJS_ECommerce_HP_Bekas/static/media/product-1.d63d9eff.png",
+    "static/media/product-2.png": "/ReactJS_ECommerce_HP_Bekas/static/media/product-2.ad7ef891.png",
+    "static/media/product-3.png": "/ReactJS_ECommerce_HP_Bekas/static/media/product-3.d27ec2bc.png",
+    "static/media/product-4.png": "/ReactJS_ECommerce_HP_Bekas/static/media/product-4.d9ed7537.png",
+    "static/media/product-5.png": "/ReactJS_ECommerce_HP_Bekas/static/media/product-5.8f9a1f89.png",
+    "static/media/product-6.png": "/ReactJS_ECommerce_HP_Bekas/static/media/product-6.b49d1b7c.png",
+    "static/media/product-7.png": "/ReactJS_ECommerce_HP_Bekas/static/media/product-7.4c6ab223.png",
+    "static/media/product-8.png": "/ReactJS_ECommerce_HP_Bekas/static/media/product-8.d390282f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c91b7291.js",
+    "static/js/2.96627088.chunk.js",
+    "static/css/main.9c5a1d25.chunk.css",
+    "static/js/main.d2509b55.chunk.js"
+  ]
+}

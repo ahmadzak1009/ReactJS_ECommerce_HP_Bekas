@@ -12,6 +12,7 @@ export const ProductProvider = props => {
         if (product.id === id) {
           product.inCart ? (product.count = 0) : (product.count = 1);
           product.inCart = !product.inCart;
+          product.total = product.price * product.count;
         }
         return product;
       })
@@ -24,6 +25,7 @@ export const ProductProvider = props => {
         if (product.id === id) {
           product.count--;
           product.count === 0 ? (product.inCart = false) : (product.inCart = true);
+          product.total -= product.price;
         }
         return product;
       })
@@ -35,6 +37,7 @@ export const ProductProvider = props => {
       products.map(product => {
         if (product.id === id) {
           product.count++;
+          product.total += product.price;
         }
         return product;
       })
@@ -46,6 +49,8 @@ export const ProductProvider = props => {
       products.map(product => {
         if (product.id === id) {
           product.inCart = false;
+          product.count = 0;
+          product.total = 0;
         }
         return product;
       })

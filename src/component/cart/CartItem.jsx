@@ -4,6 +4,7 @@ const CartItem = props => {
   return (
     <li className="list-group-item">
       <strong className="mr-2">{props.cartItem.title}</strong>
+      <small>Rp. {props.cartItem.price} </small>
       <button className="btn btn-light btn-sm rounded-circle mr-1" onClick={props.countMinus.bind(this, props.cartItem.id)}>
         <i className="fa fa-minus"></i>
       </button>
@@ -14,6 +15,7 @@ const CartItem = props => {
       <button className="btn btn-danger btn-sm rounded-circle float-right" onClick={props.deleteItem.bind(this, props.cartItem.id)}>
         <i className="fa fa-times"></i>
       </button>
+      <div className="font-italic small">Rp. {props.cartItem.total}</div>
     </li>
   );
 };

@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { ProductContext } from "../../ProductContext";
+import { Link } from "react-router-dom";
 
 const ProductDetail = props => {
   const value = useContext(ProductContext);
@@ -10,7 +11,12 @@ const ProductDetail = props => {
 
   return (
     <div className="container my-3">
-      <h1 className="mb-3">Product Details</h1>
+      <h1 className="mb-3 d-inline-block">Product Details</h1>
+      <h5 className="float-right mt-3">
+        <Link to="/" className="text-decoration-none text-dark">
+          <i className="fa fa-chevron-left"></i> Back
+        </Link>
+      </h5>
       <div className="row">
         <div className="col-md-5 mb-3">
           <img src={require("../../" + img)} alt={title} className="img-fluid img-thumbnail w-100" />

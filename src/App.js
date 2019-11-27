@@ -12,6 +12,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path={"/"} exact component={Index} />
+        <Route path={"/ReactJS_ECommerce_HP_Bekas"} exact component={Index} />
         <Route path={"/details/:id"} component={ProductDetail} />
         <Route path={"/my-cart"} component={MyCart} />
       </Switch>

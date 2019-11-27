@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ReactJS_ECommerce_HP_Bekas/static/css/main.9c5a1d25.chunk.css",
-    "main.js": "/ReactJS_ECommerce_HP_Bekas/static/js/main.8764e66b.chunk.js",
-    "main.js.map": "/ReactJS_ECommerce_HP_Bekas/static/js/main.8764e66b.chunk.js.map",
+    "main.js": "/ReactJS_ECommerce_HP_Bekas/static/js/main.9051664a.chunk.js",
+    "main.js.map": "/ReactJS_ECommerce_HP_Bekas/static/js/main.9051664a.chunk.js.map",
     "runtime-main.js": "/ReactJS_ECommerce_HP_Bekas/static/js/runtime-main.c91b7291.js",
     "runtime-main.js.map": "/ReactJS_ECommerce_HP_Bekas/static/js/runtime-main.c91b7291.js.map",
-    "static/js/2.17f75b9a.chunk.js": "/ReactJS_ECommerce_HP_Bekas/static/js/2.17f75b9a.chunk.js",
-    "static/js/2.17f75b9a.chunk.js.map": "/ReactJS_ECommerce_HP_Bekas/static/js/2.17f75b9a.chunk.js.map",
+    "static/js/2.9a5deabc.chunk.js": "/ReactJS_ECommerce_HP_Bekas/static/js/2.9a5deabc.chunk.js",
+    "static/js/2.9a5deabc.chunk.js.map": "/ReactJS_ECommerce_HP_Bekas/static/js/2.9a5deabc.chunk.js.map",
     "index.html": "/ReactJS_ECommerce_HP_Bekas/index.html",
-    "precache-manifest.140948074163d15544ff7b59693dbdc3.js": "/ReactJS_ECommerce_HP_Bekas/precache-manifest.140948074163d15544ff7b59693dbdc3.js",
+    "precache-manifest.bb56435e881b71a47adae14861e4049d.js": "/ReactJS_ECommerce_HP_Bekas/precache-manifest.bb56435e881b71a47adae14861e4049d.js",
     "service-worker.js": "/ReactJS_ECommerce_HP_Bekas/service-worker.js",
     "static/css/main.9c5a1d25.chunk.css.map": "/ReactJS_ECommerce_HP_Bekas/static/css/main.9c5a1d25.chunk.css.map",
     "static/media/logo.svg": "/ReactJS_ECommerce_HP_Bekas/static/media/logo.9f7e506d.svg",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c91b7291.js",
-    "static/js/2.17f75b9a.chunk.js",
+    "static/js/2.9a5deabc.chunk.js",
     "static/css/main.9c5a1d25.chunk.css",
-    "static/js/main.8764e66b.chunk.js"
+    "static/js/main.9051664a.chunk.js"
   ]
 }

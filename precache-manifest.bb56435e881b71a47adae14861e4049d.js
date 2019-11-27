@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c333fe576e9abba097fd8c30571424d4",
+    "revision": "b96aa9fc09e18ef37671c1bd77379587",
     "url": "/ReactJS_ECommerce_HP_Bekas/index.html"
   },
   {
-    "revision": "56ab01dc048040977e50",
+    "revision": "8a4188c9efab601531d4",
     "url": "/ReactJS_ECommerce_HP_Bekas/static/css/main.9c5a1d25.chunk.css"
   },
   {
-    "revision": "53e5588276fc0a740089",
-    "url": "/ReactJS_ECommerce_HP_Bekas/static/js/2.17f75b9a.chunk.js"
+    "revision": "8e98bc0d8821c42f2c37",
+    "url": "/ReactJS_ECommerce_HP_Bekas/static/js/2.9a5deabc.chunk.js"
   },
   {
-    "revision": "56ab01dc048040977e50",
-    "url": "/ReactJS_ECommerce_HP_Bekas/static/js/main.8764e66b.chunk.js"
+    "revision": "8a4188c9efab601531d4",
+    "url": "/ReactJS_ECommerce_HP_Bekas/static/js/main.9051664a.chunk.js"
   },
   {
     "revision": "8e00fdc62994168f3d18",

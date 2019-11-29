@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const MyCart = props => {
   const value = useContext(ProductContext);
-  const { products, countMinus, countPlus, deleteItem } = value;
+  const { products, countMinus, countPlus, deleteItem, clearAll } = value;
 
   const totalPrice = value.products.map(product => product.price * product.count).reduce((acc, curr) => acc + curr);
   const tax = Math.floor(totalPrice * 0.1);
@@ -50,6 +50,9 @@ const MyCart = props => {
             </li>
           </ul>
           <button className="btn btn-primary w-100 mt-3">Checkout</button>
+          <button className="btn btn-danger w-100 mt-3" onClick={clearAll}>
+            Clear All
+          </button>
         </div>
       </div>
     </div>

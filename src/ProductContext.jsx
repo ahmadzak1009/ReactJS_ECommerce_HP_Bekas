@@ -57,7 +57,18 @@ export const ProductProvider = props => {
     );
   };
 
-  return <ProductContext.Provider value={{ products, setProducts, addToCart, countMinus, countPlus, deleteItem }}>{props.children}</ProductContext.Provider>;
+  const clearAll = () => {
+    setProducts(
+      products.map(product => {
+        product.inCart = false;
+        product.count = 0;
+        product.total = 0;
+        return product;
+      })
+    );
+  };
+
+  return <ProductContext.Provider value={{ products, setProducts, addToCart, countMinus, countPlus, deleteItem, clearAll }}>{props.children}</ProductContext.Provider>;
 };
 
 export const ProductConsumer = ProductContext.Consumer;
